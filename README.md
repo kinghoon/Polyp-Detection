@@ -10,7 +10,6 @@ PolypNet-DLV3+는 대장내시경 영상에서 용종을 실시간으로 검출�
 - **실시간 추론**: 초당 30프레임(FPS) 이상의 실시간 분석 가능
 - **다양한 데이터셋 지원**: Kvasir-SEG, CVC-ClinicDB, ETIS-LaribPolypDB, CVC-ColonDB 통합 학습
 - **바운딩 박스 생성**: 세그멘테이션 결과를 바탕으로 용종 위치 및 크기 자동 검출
-- **SaaS 서비스 지원**: HealthSync 클라우드 플랫폼을 통한 서비스 제공
 
 ## 모델 아키텍처
 
@@ -188,17 +187,6 @@ for i, box in enumerate(boxes):
 - NVIDIA GTX 1660: 38.5 FPS
 - Intel i7-10700K CPU: 8.9 FPS
 
-## HealthSync 통합
-
-본 모델은 HealthSync SaaS 플랫폼에 통합되어 의료기관에 실시간 용종 검출 서비스를 제공합니다.
-
-### 주요 기능
-- 클라우드 기반 추론 서비스
-- 다중 병원 동시 지원
-- 실시간 알림 및 리포트 생성
-- 기존 HIS/PACS 시스템 연동
-
-## 라이선스
 
 본 프로젝트는 의료 연구 및 임상 응용 목적으로 개발되었습니다.
 
