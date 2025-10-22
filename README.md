@@ -207,11 +207,3 @@ for i, box in enumerate(boxes):
 1. Chen, L. C., et al. (2018). Encoder-decoder with atrous separable convolution for semantic image segmentation. ECCV.
 2. Jha, D., et al. (2020). Kvasir-SEG: A segmented polyp dataset. MMM.
 3. Bernal, J., et al. (2015). WM-DOVA maps for accurate polyp highlighting in colonoscopy. Computerized Medical Imaging and Graphics.
-
-## 문의
-
-프로젝트 관련 문의사항은 HealthSync 개발팀으로 연락 주시기 바랍니다.
-
----
-
-**HealthSync - AI 기반 의료 영상 분석의 새로운 표준**
