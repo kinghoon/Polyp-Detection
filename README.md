@@ -182,13 +182,8 @@ for i, box in enumerate(boxes):
 ### 양자화
 8비트 양자화를 통해 모델 크기를 75% 감소시키고 추론 속도를 45% 향상시킬 수 있습니다.
 
-### 실시간 추론 성능
-- NVIDIA RTX 3090: 66.7 FPS
-- NVIDIA GTX 1660: 38.5 FPS
-- Intel i7-10700K CPU: 8.9 FPS
-
-
-본 프로젝트는 의료 연구 및 임상 응용 목적으로 개발되었습니다.
+### 모델 링크
+https://huggingface.co/kinghoon/polyp-model
 
 ## 참고 문헌
 
